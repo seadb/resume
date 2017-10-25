@@ -1,0 +1,207 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+%\addbibresource{bibliography.bib}
+\begin{document}
+\header{chelsea}{bridson}
+       {software developer}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{about}
+  \begin{tabular}{c   r}
+  \textcolor{gray}{\FA \faHome}& 216 N Foster Ave
+  & Lansing, MI
+  \textcolor{gray}{\FA \faPhone} & (734) 219-2858
+    & ~
+  \href{mailto:chelsea@bridson.me}{\textcolor{gray}{\envelope{}}} & \href{mailto:chelsea@bridson.me}{ chelsea@bridson.me}
+    \href{chelsea.bridson.me}{\textcolor{gray}{\FA\faUser}} & \href{chelsea.bridson.me}{ chelsea.bridson.me}
+    \href{https://github.com/seadb}{\textcolor{gray}{\github}} & \href{https://github.com/seadb}{ git://seadb}
+      \end{tabular}
+  \section{languages}
+    native english
+    basic spanish
+  \section{programming}
+  \renewcommand{\arraystretch}{0.5}
+  \begin{tabular}{r@{\hskip 0.2in} l}
+    C/C++  & \bullet \bullet \bullet\\
+    C\# & \bullet \\
+    Python & \bullet \bullet \\
+    Javascript/ES6 & \bullet \bullet \bullet \\
+    CSS3 & \bullet \bullet \bullet \\
+    HTML5 & \bullet \bullet \bullet \\
+    Node & \bullet \bullet \\
+    Django & \bullet \bullet\\
+    jQuery & \bullet \bullet \\
+    React & \bullet \bullet \bullet \\
+    Angular & \bullet \bullet \bullet \\
+    Backbone & \bullet \\
+    Knockout & \bullet \\
+  \end{tabular}
+
+  \section{volunteering}
+  \renewcommand{\arraystretch}{0.5}
+  \begin{tabular}{r@{\hskip 4pt} l}
+    2016 & \textcolor{gray}{\fontawesome{\symbol{"F206}}} Lansing Bike Co-op \\
+    2016 & \textcolor{gray}{\FA \faCoffee} Room at the Inn 
+         &  Warming Center \\
+    2016 & \textcolor{gray}{\FA \faFood} Food Gatherers \\
+    2015 & \textcolor{gray}{\fontawesome{\symbol{"F206}}} Common Cycle \\
+    2014 & \textcolor{gray}{\fontawesome{\symbol{"F109}}} MSU Women In
+         & Engineering \\
+    2013 &\textcolor{gray}{\fontawesome{\symbol{"F209}}} EL Hot Yoga \\
+    2013 & \textcolor{gray}{\FA \faLeaf} The Giving Tree Farm \\
+    2012 & \textcolor{gray}{\FA \faHeart} Ronald McDonald
+         & House Mid-Michigan\\
+  \end{tabular}
+
+\end{aside}
+
+\section{interests}
+user experience, single page applications, web design, infrastructure automation, biometrics, 
+cyber security, computer graphics, environmentalism, localism, social justice, bicycling, henna
+
+\section{education}
+
+\begin{entrylist}
+  \entry
+    {12–2015}
+    {B.Sc. {\normalfont in Computer Science} 3.3/4.0}
+    {MICHIGAN STATE UNIVERSITY}
+    {   \pullrightfth{Computer Science \& Engineering}{College of Engineering}\emph{Dean's List, College of Engineering Scholarship}}
+  \entry
+    {2015-2016}
+    {\href{http://www.hackerfellows.com/}{Hacker Fellows} }
+    {HACKER FELLOWS}
+    {Fellowship which matches developer talent with Michigan startups
+    and includes a 5-week entrepreneurship \& coding bootcamp as well as a salary boost}
+
+\end{entrylist}
+
+\section{experience}
+
+\begin{entrylist}
+\entry
+  {2015-2016}
+  {\href{http://www.seelio.com/}{Seelio} }
+  {FRONTEND DEVELOPER}
+  {
+   \textcolor{gray}{\FA \faMapMarker} \hspace{2pt} {\bf Skills Map}
+   \begin{itemize}[topsep=6pt,leftmargin=0pt,itemsep=6pt]
+     \item Created a user-interface for the skills map, a feature designed
+       to help students connect soft skills to past experiences and projects
+     \item {
+         Researched and implemented {\bfseries continuous integration \& deployment} % best practices, including automated testing and infrastructure automation
+       }
+     %\item {Added ADA compliance to Seelio Widget}
+     \item Adhered to Agile bi-weekly sprint planning sessions and daily 
+       Scrum meetings in order to reach project goals in a timely fashion
+   \end{itemize}
+   \textsc{\textbf{tools: react, stylus, jade, gulp, browserify, docker, nginx, aws}}
+   \vspace{10pt}
+  }
+
+  \entry
+    {2014-2015}
+    {
+        %\textcolor{gray}{\FA \faGlobe} \hspace{2pt}
+        \href{https://goes.msu.edu/index.cfm}{Global Observatory for Ecosystem Services}
+    }
+    {SOFTWARE DEVELOPER}
+    {
+      \textcolor{gray}{\FA \faLeaf} \hspace{2pt} \href{http://www.forestplus.org/}
+      {{\bf Forest PLUS M}easurement, {\bf R}eporting, and {\bf V}erification System }
+      
+      \begin{itemize}[topsep=6pt,leftmargin=0pt,itemsep=6pt]
+          \item{
+            Maintained a tool used to measure carbon sinks \& calculate
+            statistical biomass information to improve forest management
+          }
+          \item{ Automated the parsing, reformatting \& solving of a pdf list of 
+            1,400 equations
+          } 
+          \item{
+            Created a LaTeX based filter to parse equations and display a readable format
+          }
+      \end{itemize}
+      \textsc{\textbf{tools: django, angularjs, nginx, git, google maps api, bootstrap}}
+      \vspace{10pt}
+    }
+  
+\entry
+    {2014-2015}
+    {\href{http://www.quickenloans.com/}{Capstone Team Quicken Loans}}
+    {PROJECT MANAGER}
+    {\textcolor{gray}{\fontawesome{\symbol{"F1B9}}} \hspace{2pt} 
+      \href{http://www.capstone.cse.msu.edu/2015-01/projects/quicken-loans/}
+           {{\bf P}arking {\bf A}llocation and {\bf E}xpense {\bf R}econciliation}
+      \begin{itemize}[topsep=6pt,leftmargin=*,itemsep=6pt,align=left]
+        \item{ Developed the frontend of a system used by the Quicken Loans Parking Team to
+            track parking expenses, and to recognize and resolve areas of 
+            over-billing}
+        \item{
+          Planned project time-line to ensure completion of project goals% and ensured design,
+          %functionality, and technical requirements would be met on time
+            }
+        \item{ Allocated and communicated weekly development tasks to 
+          team members}
+      \end{itemize}
+      \textbf{\textsc{tools: c\#, microsoft server, asp.net, \& angularjs, git}}
+    }
+\end{entrylist}
+\end{document}
+\iffalse
+
+  \entry
+    {2015-2016}
+    {FELLOW OF 2015}
+    {\begin{itemize}[topsep=0pt,leftmargin=0pt,itemsep=6pt]
+       \item Attended Hacker Fellows bootcamp, a 5 week training session
+       \item Collaborated to build the Hacker Fellows web-portal, an application to match Fellows with start-up companies based on mutual interest
+       \item Practiced basic entrepreneurship skills including business pitches
+     \end{itemize}
+     \textsc{\textbf{angular, sass, jade, gulp, browserify, git, heroku}}
+     \vspace{10pt}
+    }
+
+\section{courses}
+
+\begin{entrylist}
+  \entry
+    {2014}
+    {\textcolor{mediumgray}{\FA \faLock } \hspace{2pt} Computer Security}
+    {Javascript, SQL}
+    {Simulated modern computer attacks in virtual environments }
+
+  \entry
+    {2014}
+    {\textcolor{mediumgray}{\FA \faHandUp} \hspace{2pt} Biometrics}
+    {C++, Matlab}
+    {Implemented biometric matching algorithms }
+    
+  \entry
+    {2014}
+    {\textcolor{mediumgray}{\FA \faFont} \hspace{2pt} Translation of Programming Languages}
+    {flex \& Bison}
+    {Created an optimized compiler \& collaborated using git}
+    
+  \entry
+    {2014}
+    {\textcolor{mediumgray}{\FA \faDesktop} \hspace{2pt} Operating Systems}
+    {C}
+    {OS kernels, memory management techniques, multiple threads}
+  \entry
+    {2013}
+    {\textcolor{mediumgray}{\FA \faPuzzlePiece} \hspace{2pt} Object Oriented Programming}
+    {C++}
+    {Collaborated utilizing object oriented design principles to design software}
+    
+  \entry
+    {2013}
+    {\textcolor{mediumgray}{\FA \faPlus} \hspace{2pt} Algorithms and Data Structures}
+    {C++}
+    {Implemented and analyzed fundamental data structures \& algorithms }
+\end{entrylist}
+
+\fi
+
+
