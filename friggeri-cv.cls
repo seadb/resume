@@ -28,6 +28,7 @@
 \definecolor{orange}{HTML}{FDA333}
 \definecolor{purple}{HTML}{D3A4F9}
 \definecolor{red}{HTML}{FB4485}
+\definecolor{wine}{HTML}{710C04}
 \definecolor{blue}{HTML}{6CE0F1}
 
 \ifdefined\@cv@print
@@ -39,7 +40,7 @@
   \colorlet{fillheader}{white}
   \colorlet{header}{gray}
 \else
-  \colorlet{fillheader}{teal}
+  \colorlet{fillheader}{wine}
   \colorlet{header}{white}
 \fi
 \colorlet{textcolor}{gray}
