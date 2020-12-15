@@ -3,7 +3,7 @@
 
 %\addbibresource{bibliography.bib}
 \begin{document}
-\header{chelsea}{ bridson}
+\header{chelsea}{bridson}
        {software developer}
 
 % In the aside, each new line forces a line break
@@ -21,27 +21,28 @@
   \section{languages}
     native english
     basic spanish
-  \section{technologies}
+  \section{programming}
   \renewcommand{\arraystretch}{0.5}
   \begin{tabular}{r@{\hskip 0.2in} l}
-    Javascript/ES6 & \bullet \bullet \bullet \\
-    React/Redux & \bullet \bullet \bullet \\
-    Angular2 & \bullet \bullet \bullet \\
+    Javascript/ES6 & \bullet \bullet \bullet \bullet \bullet \\
+    React & \bullet \bullet \bullet \bullet \bullet \\
+    Redux & \bullet \bullet \bullet \bullet \\
+    Angular & \bullet \bullet \bullet \\
     jQuery & \bullet \bullet \bullet \\
     C/C++  & \bullet \bullet \bullet\\
     C\# & \bullet \bullet \\
     Python & \bullet \bullet \\
-    CSS3 & \bullet \bullet \bullet \\
-    HTML5 & \bullet \bullet \bullet \\
-    Node & \bullet \bullet \bullet \\
+    CSS3 & \bullet \bullet \bullet \bullet \bullet \\
+    HTML5 & \bullet \bullet \bullet \bullet \bullet \\
+    Node & \bullet \bullet \bullet \bullet \\
     Django & \bullet \bullet \bullet \\
-    SQL & \bullet \bullet \\
+    SQL &\bullet \bullet \bullet \\
   \end{tabular}
 
   \section{volunteering}
   \renewcommand{\arraystretch}{0.5}
   \begin{tabular}{r@{\hskip 4pt} l}
-    2020 & \textcolor{gray}{\fontawesome{\symbol{"F39A}}} Food Not Bombs \\
+    2020 & \textcolor{gray}{\fontawesome{\symbol{"F39A}}} Bernie 2020 Campaign \\
     2018 & \textcolor{gray}{\fontawesome{\symbol{"F206}}} Lansing Bike Party \\
     2017 & \textcolor{gray}{\fontawesome{\symbol{"F085}}} Lansing Bike Co-op \\
     2016 & \textcolor{gray}{\FA \faCoffee} Room at the Inn 
@@ -64,12 +65,12 @@
 \section{education}
 \begin{entrylist}
   \entry
-    {2015}
+    {12–2015}
     {B.Sc. {\normalfont in Computer Science}} %3.3/4.0}
     {MICHIGAN STATE UNIVERSITY}
     {   \pullrightfth{Computer Science \& Engineering}{College of Engineering}\emph{Dean's List, College of Engineering Scholarship}}
   \entry
-    {2015}
+    {2015-2016}
     {\href{http://www.hackerfellows.com/}{Hacker Fellows} }
     {HACKER FELLOWS}
     {Fellowship matches developer talent with Michigan startups
@@ -113,20 +114,19 @@
 %   }
 
 \entry
-  {2018}
+  {2018-present}
   {\textcolor{gray}{\FA \faTint} Liquid Web}
   {SOFTWARE DEVELOPER}
   {
     \textit{}
     \begin{itemize}[topsep=2pt,leftmargin=0pt,itemsep=6pt]
-      \item Build user interface for my.liquidweb.com the from ground up with React
-      \item Write modular, maintainable, performant code with thorough test coverage
-      \item Implement feature enhancements to improve application functionality, user experience, and responsiveness
-      \item Collaborate in regular team code-reviews, sprint planning, and retrospectives
+      \item Collaborate with team to create a user interface from scratch
+      \item Implement feature enhancements to improve user experience and responsiveness
+      \item Write modular, maintainable, performant code with thorough unit and integration test coverage
       \item Create automated acceptance test suite to prevent regressions and verify business level requirements for manage.liquidweb.com
     \end{itemize}
     
-    \textbf{\textsc{react, redux, material ui, gitlab, selenium, perl, javascript}}
+    \textbf{\textsc{react, redux, gitlab, sketch, selenium, perl, javascript}}
     \vspace{10pt}
   }
 \entry
@@ -144,7 +144,7 @@
     \vspace{10pt}
   }
 \entry
-  {2015}
+  {2015-2016}
   {\textcolor{gray}{\FA \faMapMarker} \href{http://www.seelio.com/}{Seelio} }
   {FRONTEND DEVELOPER}
   {
@@ -153,9 +153,10 @@
       \item Created a user-interface for the skills map, a feature designed
         to help students connect soft skills to past experiences and projects
       \item {
-          Implemented  robust continuous integration \& deployment system using CircleCI% best practices, including automated testing and infrastructure automation
+          Researched and implemented {\bfseries continuous integration \& deployment} % best practices, including automated testing and infrastructure automation
         }
       %\item {Added ADA compliance to Seelio Widget}
+      \item Adhered to Agile bi-weekly sprint planning sessions and daily 
     \end{itemize}
     \textbf{\textsc{javascript, backbone.js, knockout, circleci, selenium, aws, git}}
     \vspace{10pt}

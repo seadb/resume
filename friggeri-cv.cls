@@ -27,6 +27,7 @@
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
 \definecolor{purple}{HTML}{D3A4F9}
+\definecolor{pink}{HTML}{F4B4C4}
 \definecolor{red}{HTML}{FB4485}
 \definecolor{wine}{HTML}{710C04}
 \definecolor{blue}{HTML}{6CE0F1}
@@ -41,8 +42,8 @@
   \colorlet{fillheader}{white}
   \colorlet{header}{gray}
 \else
-  \colorlet{fillheader}{bernieblue}
-  \colorlet{header}{white}
+  \colorlet{fillheader}{white}
+  \colorlet{header}{darkgray}
 \fi
 \colorlet{textcolor}{gray}
 \colorlet{headercolor}{gray}
@@ -187,7 +188,7 @@
 
 \setlength{\tabcolsep}{0pt}
 \newenvironment{entrylist}{%
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{0.5cm}}ll}
 }{%
   \end{tabular*}
 }
